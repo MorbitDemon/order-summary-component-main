@@ -1,0 +1,137 @@
+html {
+  --color-primary-200: rgb(224, 232, 255);
+  --color-primary-800: hsl(245, 75%, 52%);
+
+  --color-neutral-200: hsl(225, 100%, 98%);
+  --color-neutral-300: hsl(224, 23%, 55%);
+  --color-neutral-800: hsl(223, 47%, 23%);
+
+  margin: 0;
+  padding: 0;
+  left: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  object-fit: cover;
+  background-color: var(--color-primary-200);
+}
+
+main ul {
+  list-style: none;
+  border-radius:20px;
+  max-width: 28.125rem;
+  margin: 9rem auto;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0px 10px 20px #ababab;
+}
+
+#hero-img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+#item-content {
+  background-color: var(--color-neutral-200);
+  text-align: center;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+#item-content h1 {
+  margin-top: 0;
+  color: var(--color-neutral-800);
+}
+
+#item-content p{
+    color: var(--color-neutral-300);
+}
+
+#item-content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+#item-content-container a {
+    color: var(--color-primary-800);
+    transition: all 1s ease-out;
+}
+
+#item-content-container a:hover{
+    text-decoration: none;
+    transform: scaleX(103%);
+    color: rgb(95, 86, 172);
+}
+
+#pricing{
+    margin: 2em 0;
+}
+
+#pricing h3{
+    color: var(--color-neutral-800);
+}
+
+#pricing p,
+h3
+{
+    margin: 0 2rem 0 1.5rem;
+}
+
+#btns{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem auto;
+}
+
+#btns a {
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#proceed-btn{
+    background-color: var(--color-primary-800);
+    color: white;
+    padding: 0.9rem;
+    box-shadow: 0px 0px 10px gray;
+    transition: all 0.3s ease-out
+}
+
+#proceed-btn:hover{
+    background-color: rgb(95, 86, 172);
+    font-weight: bold;
+}
+
+#cancel-btn{
+    padding: 0.9rem;
+    color: var(--color-neutral-300);
+    transition: all 0.1s ease-out;
+}
+
+#cancel-btn:hover{
+    font-weight: bolder;
+}
+
+
+.attribution {
+  margin-top: 20rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.attribution a {
+  color: rgb(62, 82, 163);
+}
+
+@media (max-width: 29.6rem){
+    #item-content-container{
+        font-size: 0.8rem;
+    }
+    #item-content{
+        padding: 2rem 2rem;
+    }
+}
