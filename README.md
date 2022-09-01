@@ -31,7 +31,7 @@ The screenshots were taken in the widths indicaded by the challange (1440x, 375p
 
 
 ### Links
-- Live Site URL: [https://morbitdemon.github.io/order-summary-component-main/](https://your-live-site-url.com)
+- Live Site URL: [https://morbitdemon.github.io/order-summary-component-main/)
 
 ## My process
 - Built the HTML structure.
